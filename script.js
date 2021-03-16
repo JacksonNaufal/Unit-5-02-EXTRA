@@ -1,6 +1,8 @@
+
 document.getElementById('button').addEventListener('click', button)
 document.getElementById('background').addEventListener('click', background)
 document.getElementById('block').addEventListener('click', block)
+document.getElementById('background').addEventListener('click', background)
 
 function button () {
   document.getElementById('paragraph').innerHTML =
@@ -11,7 +13,7 @@ function button () {
 }
 
 function block () {
-  document.getElementById('diamond').src = 
+  document.getElementById('diamond').src =
 'Ocelots.png'
   document.getElementById('background').style.backgroundColor = 'pink'
 }
