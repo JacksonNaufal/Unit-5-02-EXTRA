@@ -14,4 +14,3 @@ function block () {
 'Ocelots.png'
   document.getElementById('background').style.backgroundColor = 'pink'
 }
-
