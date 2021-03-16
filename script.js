@@ -1,8 +1,8 @@
-
+document.getElementById('background1').addEventListener('click', background1)
+document.getElementById('background1').addEventListener('click', background1)
 document.getElementById('button').addEventListener('click', button)
-document.getElementById('background1').addEventListener('click', background1)
 document.getElementById('block').addEventListener('click', block)
-document.getElementById('background1').addEventListener('click', background1)
+
 
 function button () {
   document.getElementById('paragraph').innerHTML =
